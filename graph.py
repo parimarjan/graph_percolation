@@ -175,15 +175,6 @@ class Graph(object):
                 chrom_num = i
                 break
 
-        # Print the solution
-        if False:
-            if chrom_num != -1:
-                print "Solution exist and Following are the assigned colours:"
-                for i, c in enumerate(colours):
-                    print str(i) + ": ", 
-                    print c,
-            else:
-                print "No solution"
 
         return chrom_num
 
